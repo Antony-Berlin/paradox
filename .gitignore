@@ -1,0 +1,34 @@
+# ---- PARADOX .gitignore ----
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# SQLite databases (never commit runtime DB)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Generated artifacts (do not commit fake logs; generated on demand)
+artifacts/*
+!artifacts/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

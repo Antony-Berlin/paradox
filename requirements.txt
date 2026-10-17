@@ -1,0 +1,8 @@
+# PARADOX runtime dependencies (pinned to tested versions)
+google-adk==2.12.0
+mcp==2.3.0
+pydantic==2.12.5
+python-dotenv==1.2.4
+pytest==9.1.1
+# Optional dashboard viewer (P1) — not required for CLI demo/benchmark/validate
+streamlit==1.42.0
